@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chirpy | Little Joys, Big Chirps</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --yellow:#FFF3B0;
+  --mint:#DFF5EA;
+  --blue:#E6F2FF;
+  --pink:#FFD9E3;
+  --text:#4A4A4A;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:'Poppins',sans-serif;
+  background:#fff;
+  color:var(--text);
+}
+header{
+  position:sticky;
+  top:0;
+  background:#fff;
+  padding:14px 18px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #eee;
+}
+.logo{
+  font-size:22px;
+  font-weight:700;
+  color:#ff8fa3;
+}
+.menu{
+  font-size:24px;
+}
+.hero{
+  padding:40px 20px;
+  text-align:center;
+  background:linear-gradient(180deg,var(--yellow),#fff);
+}
+.hero h1{
+  font-size:38px;
+  color:#ff7f9c;
+}
+.hero p{
+  margin:14px 0 26px;
+  font-size:16px;
+}
+.btn{
+  display:block;
+  width:100%;
+  padding:14px;
+  border-radius:30px;
+  border:none;
+  font-size:16px;
+  margin-bottom:12px;
+}
+.primary{
+  background:#ff9fb3;
+  color:#fff;
+}
+.secondary{
+  background:var(--mint);
+  color:#2f7f6f;
+}
+.scroll{
+  display:flex;
+  gap:14px;
+  overflow-x:auto;
+  padding:22px 18px;
+}
+.box{
+  min-width:160px;
+  padding:18px;
+  background:var(--blue);
+  border-radius:18px;
+  text-align:center;
+  font-weight:600;
+}
+.section{
+  padding:30px 18px;
+}
+.section h2{
+  margin-bottom:14px;
+  color:#ff7f9c;
+}
+.category{
+  background:var(--pink);
+  border-radius:18px;
+  padding:22px;
+  margin-bottom:14px;
+  font-weight:600;
+}
+.cta{
+  background:var(--mint);
+  padding:32px 18px;
+  text-align:center;
+}
+footer{
+  padding:20px;
+  text-align:center;
+  font-size:14px;
+  color:#888;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🐦 Chirpy</div>
+  <div class="menu">☰</div>
+</header>
+
+<section class="hero">
+  <h1>Chirpy</h1>
+  <p>Little Joys, Big Chirps</p>
+  <button class="btn primary">Shop Now</button>
+  <button class="btn secondary">Explore</button>
+</section>
+
+<section class="scroll">
+  <div class="box">🐤 Soft Fabrics</div>
+  <div class="box">🌈 Pastel Colors</div>
+  <div class="box">🧒 Kid Comfort</div>
+</section>
+
+<section class="section">
+  <h2>Our Collections</h2>
+  <div class="category">👕 T-Shirts</div>
+  <div class="category">👖 Cord Sets</div>
+  <div class="category">👗 Everyday Wear</div>
+</section>
+
+<section class="section">
+  <h2>Why Chirpy?</h2>
+  <p>
+    Chirpy brings joyful, breathable, and playful kidswear inspired by happy little birds and carefree childhood moments.
+  </p>
+</section>
+
+<section class="cta">
+  <h2>Let Kids Chirp with Joy 🐦</h2>
+  <button class="btn primary">View Collection</button>
+</section>
+
+<footer>
+  © Chirpy Kidswear · Made with love in India
+</footer>
+
+</body>
+</html>
